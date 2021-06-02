@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.203,D:\study\debilder\lab6\Unit1.cpp=D:\study\debilder\lab6\tree.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.203,D:\study\debilder\lab6\Unit1.h=D:\study\debilder\lab6\tree.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.914,D:\study\debilder\lab6\Project5PCH1.h=D:\study\debilder\lab6\lab6PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.645,D:\study\debilder\Project5PCH1.h=D:\study\debilder\lab6\Project5PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.134,=D:\study\debilder\Project5PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.155,=D:\study\debilder\lab6\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.925,D:\study\debilder\lab6\Project5.cbproj=D:\study\debilder\lab6\lab6.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.825,D:\study\debilder\Unit4.h=D:\study\debilder\lab6\Unit4.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.825,D:\study\debilder\Unit4.dfm=D:\study\debilder\lab6\Unit4.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.234,D:\study\debilder\Project5.cbproj=D:\study\debilder\lab6\Project5.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.849,=D:\study\debilder\Unit4.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.825,D:\study\debilder\Unit4.cpp=D:\study\debilder\lab6\Unit4.cpp</Transaction>
+  </Transactions>
+</BorlandProject>

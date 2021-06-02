@@ -1,0 +1,10 @@
+﻿[StringGrid1]
+Coordinates=10,10,80,58
+Visible=True
+
+[TreeView1]
+Coordinates=100,10,76,36
+
+[]
+Coordinates=99,56,91,36
+

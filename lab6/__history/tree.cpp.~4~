@@ -1,0 +1,51 @@
+//---------------------------------------------------------------------------
+
+#pragma hdrstop
+
+
+#include "tree.h"
+
+void BinarySearchTree::add(int _data, node **_node)
+{
+	if (*_node == NULL)
+	{
+		*_node = new node;
+		(*_node)->data = _data;
+	}
+
+	else
+	{
+		if (_data < (*_node)->data)
+		{
+			add(_data, &((*_node)->left));
+		}
+
+		else if (_data > (*_node)->data)
+		{
+			add(_data, &((*_node)->right));
+		}
+	}
+	return;
+}
+void BinarySearchTree::get(std::ostream &out, node *_node) const
+{
+	if (_node->left)
+		get(out, _node->left);
+	out << _node->data << " ";
+	if (_node->right)
+		get(out, _node->right);
+	return;
+}
+
+void BinarySearchTree::get_value(node *_node, std::vector<int> &temp) const
+{
+	if (_node->left)
+		get_value(_node->left, temp);
+	temp.push_back(_node->data);
+	if (_node->right)
+		get_value(_node->right, temp);
+	return;
+}
+
+//---------------------------------------------------------------------------
+#pragma package(smart_init)

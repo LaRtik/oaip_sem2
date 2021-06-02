@@ -1,0 +1,33 @@
+//---------------------------------------------------------------------------
+
+#pragma hdrstop
+
+
+#include "tree.h"
+
+void BinarySearchTree::add(int _key, node *_node)
+{
+	if (_node == 0)
+	{
+		_node = new node;
+		_node->key = _key;
+	}
+
+	else
+	{
+		if (_key < _node->key)
+		{
+			add(_key, _node->left);
+		}
+
+		else if (_key > _node->key)
+		{
+			add(_key, _node->right);
+		}
+	}
+	balance(_node);
+	return;
+}
+
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
